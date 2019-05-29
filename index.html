@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3rs - Cadastro de Peças</title>
+</head>
+<body>
+    <header>
+        <a href="http://www.google.com.br">
+            <img src="img/logotipo.png" alt="Logotipo da Empresa" />
+        </a>
+        <ul>
+            <li>usuários</li>
+            <li>peças</li>
+            <li>login</li>
+        </ul>
+    </header>
+    <div>
+        
+    </div>
+    <hr/>
+    <main>
+        <h1 style="visibility: hidden;position: absolute;">Página Principal da 3R Peças</h1>
+        <section id="pesquisaGeralPecas">
+            <h2>Catalogo de Pecas 3R</h2>
+            <form action="/" id="frmPesuisaGeral">
+                <input type="search" name="pesquisaGeral" id="pesquisaGeral" placeholder="Buscar Peças" />
+            </form>
+        </section>
+        <br/>
+        <section id="pesquisaFacilPecas">
+            <form action="/" id="frmPesquisaFacil">
+                <h3>Veículos</h3>
+                <hr>
+                <input type="button" value="Carros" id="btnCarros">
+                <input type="button" value="Caminhões" id="btnCaminhoes">
+                <input type="button" value="Máquinas" id="btnMaquinas">
+                <input type="button" value="Motos" id="btnMotos">
+
+                <br/>
+
+                <h3>Produtos</h3>
+                <hr>
+                <input type="search" name="pesquisaProdutos" id="pesquisaProdutos" placeholder="Procurar ..." />
+
+            </form>
+
+            <aside>
+                <h2>Resultado da Pesquisa</h2>
+                <ol>
+                    <li>
+                        <img src="" alt="Produto 1"> <p>Lorem ipsum dolor sit ..... </p>
+                    </li>
+                    <li>
+                        <img src="" alt="Produto 2"> <p>repellendus repudiandae cum! ..... </p> 
+                    </li>
+                    <li>
+                        <img src="" alt="Produto 3"> <p>dignissimos quod? ... </p>
+                    </li>
+                </ol>
+            </aside>
+        </section>
+
+        <div style="height: 300px;width: 800px; border: solid 1px black">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates aliquam consequuntur odit doloribus dolores quis minima deleniti quidem voluptas hic ab officiis corporis illum dolor molestiae ut, rerum temporibus.</p>
+        </div>
+    </main>
+    <footer>
+        <h2>Cadastre para receber novidades da 3R</h2>
+        <form action="/news" name="frmNews" id="frmNews">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" maxlength="5">
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email">
+        </form>
+
+        <p>
+            2019 @ Todos os direitos reservados .. 
+        </p>
+    </footer>
+</body>
+</html>
