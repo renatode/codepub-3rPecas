@@ -1,35 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>3rs - Cadastro de Peças</title>
+
+    <link rel="stylesheet" href="css/site.css">
 </head>
-<body>
-    <header>
+<body class="esquema1">
+    <header class="esquema2">
         <a href="http://www.google.com.br">
-            <img src="img/logotipo.png" alt="Logotipo da Empresa" />
+            <img src="img/logo.jpeg" alt="Logotipo da Empresa" />
         </a>
-        <ul>
+
+        <ul class="menuprincipal">
             <li>usuários</li>
             <li>peças</li>
             <li>login</li>
         </ul>
     </header>
-    <div>
-        
-    </div>
+
     <hr/>
+
     <main>
         <h1 style="visibility: hidden;position: absolute;">Página Principal da 3R Peças</h1>
-        <section id="pesquisaGeralPecas">
+        <section id="pesquisaGeralPecas" class="a1">
             <h2>Catalogo de Pecas 3R</h2>
-            <form action="/" id="frmPesuisaGeral">
+            <form action="/" id="frmPesquisaGeral">
                 <input type="search" name="pesquisaGeral" id="pesquisaGeral" placeholder="Buscar Peças" />
             </form>
         </section>
+
         <br/>
+
         <section id="pesquisaFacilPecas">
             <form action="/" id="frmPesquisaFacil">
                 <h3>Veículos</h3>
@@ -42,9 +46,10 @@
                 <br/>
 
                 <h3>Produtos</h3>
-                <hr>
-                <input type="search" name="pesquisaProdutos" id="pesquisaProdutos" placeholder="Procurar ..." />
 
+                <hr>
+
+                <input type="search" name="pesquisaProdutos" id="pesquisaProdutos" placeholder="Procurar ..." />
             </form>
 
             <aside>
@@ -54,7 +59,7 @@
                         <img src="" alt="Produto 1"> <p>Lorem ipsum dolor sit ..... </p>
                     </li>
                     <li>
-                        <img src="" alt="Produto 2"> <p>repellendus repudiandae cum! ..... </p> 
+                        <img src="" alt="Produto 2"> <p>repellendus repudiandae cum! ..... </p>
                     </li>
                     <li>
                         <img src="" alt="Produto 3"> <p>dignissimos quod? ... </p>
@@ -62,12 +67,8 @@
                 </ol>
             </aside>
         </section>
-
-        <div style="height: 300px;width: 800px; border: solid 1px black">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse voluptates aliquam consequuntur odit doloribus dolores quis minima deleniti quidem voluptas hic ab officiis corporis illum dolor molestiae ut, rerum temporibus.</p>
-        </div>
     </main>
-    <footer>
+    <footer class="esquema2">
         <h2>Cadastre para receber novidades da 3R</h2>
         <form action="/news" name="frmNews" id="frmNews">
             <label for="nome">Nome: </label>
@@ -75,10 +76,8 @@
             <label for="email">Email: </label>
             <input type="email" name="email" id="email">
         </form>
-
         <p>
-            2019 @ Todos os direitos reservados .. 
+            2019 @ Todos os direitos reservados ..
         </p>
     </footer>
 </body>
-</html>

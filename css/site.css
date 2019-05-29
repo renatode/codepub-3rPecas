@@ -1,0 +1,18 @@
+.esquema1{
+    background-color: rgb(68, 0, 255);
+}
+.esquema2{
+    background-color: rgb(201, 27, 27);
+    color: white;
+}
+
+.menuprincipal{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menuprincipal li{
+    display: inline;
+}
